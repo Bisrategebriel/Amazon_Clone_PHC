@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon.com.Spend less. Smile more</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon-amazon.png" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <div id="nav-primary">
+      <div class="nav-left">
+        <img src="./img/amazon-logo.png   " alt="amazon logo" class="logo">
+        <div class="deliver-to">
+          <p>
+            <span class="destination">Deliver to</span>
+            <br>
+            <i class="fa fa-map-marker-alt fa-3xl" aria-hidden="true"></i>
+            Ethiopia
+          </p>
+        </div>
+      </div>
+      <div class="nav-center">
+        <div class="departments">
+          <select name="department-category" id="department-category">
+            <option value="all-department">All Departments</option>
+            <option value="arts-and-crafts">Arts and Crafts</option>
+            <option value="automotive">Automotive</option>
+            <option value="computers">Computers</option>
+            <option value="toys-and-games">Toys and Games</option>
+            <option value="video-games">Video Games</option>
+          </select>
+        </div>
+        <input type="search" name="search-anything" id="search">
+        <div class="search-icon">
+          <i class="fa fa-search search-trigger-icon" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="language">
+          <div class="dropbtn">
+            <img src="./img/ethiopia-flag.png" alt="Ethiopia flag" class="change-language">
+            <i class="fa fa-caret-down flag-caret-down"></i>
+          </div>
+          <div class="language-dropdown-content">
+            <p>Change language <span><a href="#">Learn more</a></span></p>
+            <form class="language-options">
+              <div class="form-group">
+                <input type="radio" name="languages" id="english">
+                <label for="english">English - EN</label>
+              </div>
+              <hr>
+              <div class="form-group">
+                <input type="radio" name="languages" id="espanol">
+                <label for="espanol">Espanol - ES</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="languages" id="chinese">
+                <label for="chinese">简体中文 - ZH</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="languages" id="deutsch">
+                <label for="deutsch">Deutsch - DE</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="languages" id="portugues">
+                <label for="portugues">Português - PT</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="languages" id="japanese">
+                <label for="japanese">繁體中文 - ZH</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="languages" id="korean">
+                <label for="korean">한국어 - KO</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="languages" id="hebrew">
+                <label for="hebrew">עברית - HE</label>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="languages" id="arabic">
+                <label for="arabic">العربية - AR</label>
+              </div>
+              <hr>
+              <div class="change-currency">
+                <p>Change currency <span>Learn more</span></p>
+                <div class="currency">
+                  <p>$-ETB-Ethiopian Birr</p>
+                  <a href="#">Change</a>
+                </div>
+              </div>
+              <hr>
+              <div class="shopping-country-information">
+                <div class="country-info">
+                  <img src="./img/ethiopia-flag.png" alt="Ethiopian Flag">
+                  <p>You are shopping on Amazon.com</p>
+                </div>
+                <div class="change-country">
+                  <a href="#">Change country/region</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="account-and-lists">
+          <span>Hi, Sign in</span>
+          <p class="account-lists">
+            Account & Lists 
+            <i class="fa fa-caret-down account-caret-down" aria-hidden="true"></i>
+          </p>
+        </div>
+        <div class="return-and-orders">
+          <span>Returns</span>
+          <p class="return-order">
+            & Orders
+          </p>
+        </div>
+        <div class="cart">
+          <div class="shopping-icon-and-counter">
+            <p class="counter">0</p>
+            <i class="fa fa-shopping-cart cart-case" aria-hidden="true"></i>
+          </div>
+          <p class="cart-name">Cart</p> 
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- JS -->
+  <script src="./js/app.js"></script>
+</body>
+</html>
