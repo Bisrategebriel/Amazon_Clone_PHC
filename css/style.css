@@ -360,7 +360,7 @@ button.next {
   box-sizing: border-box;
   position: relative;
   width: 99%;
-  margin: auto 5px;
+  margin: auto;
   overflow: hidden;
 }
 .banner-slides {
